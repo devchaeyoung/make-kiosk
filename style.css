@@ -2,8 +2,13 @@
   background-color: pink;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-row-gap: 5px;
+  grid-column-gap: 5px;
 }
+.select-button {
+  width: 100%;
+  border: 1px solid red;
+}
+
 #select_language {
   display: grid;
 }
